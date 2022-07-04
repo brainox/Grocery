@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1148A6588C1397139D7496F1 /* Pods_Grocery.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB345D6B8356BFDBE8F4F612 /* Pods_Grocery.framework */; };
 		541E77BC2872524C0043AFAC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 541E77BB2872524C0043AFAC /* AppDelegate.m */; };
 		541E77BF2872524C0043AFAC /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 541E77BE2872524C0043AFAC /* SceneDelegate.m */; };
 		541E77C22872524C0043AFAC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 541E77C12872524C0043AFAC /* ViewController.m */; };
@@ -14,9 +15,13 @@
 		541E77C72872524D0043AFAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 541E77C62872524D0043AFAC /* Assets.xcassets */; };
 		541E77CA2872524D0043AFAC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 541E77C82872524D0043AFAC /* LaunchScreen.storyboard */; };
 		541E77CD2872524D0043AFAC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 541E77CC2872524D0043AFAC /* main.m */; };
+		541E77DB2872571D0043AFAC /* SignInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 541E77DA2872571D0043AFAC /* SignInViewController.m */; };
+		541E77DE287257510043AFAC /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 541E77DD287257510043AFAC /* RegisterViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		154652845B4D515024392A1D /* Pods-Grocery.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Grocery.debug.xcconfig"; path = "Target Support Files/Pods-Grocery/Pods-Grocery.debug.xcconfig"; sourceTree = "<group>"; };
+		41324646D034CC50A3241D3A /* Pods-Grocery.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Grocery.release.xcconfig"; path = "Target Support Files/Pods-Grocery/Pods-Grocery.release.xcconfig"; sourceTree = "<group>"; };
 		541E77B72872524C0043AFAC /* Grocery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Grocery.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		541E77BA2872524C0043AFAC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		541E77BB2872524C0043AFAC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -29,6 +34,11 @@
 		541E77C92872524D0043AFAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		541E77CB2872524D0043AFAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		541E77CC2872524D0043AFAC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		541E77D92872571D0043AFAC /* SignInViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SignInViewController.h; sourceTree = "<group>"; };
+		541E77DA2872571D0043AFAC /* SignInViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SignInViewController.m; sourceTree = "<group>"; };
+		541E77DC287257510043AFAC /* RegisterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
+		541E77DD287257510043AFAC /* RegisterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
+		CB345D6B8356BFDBE8F4F612 /* Pods_Grocery.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Grocery.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,17 +46,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1148A6588C1397139D7496F1 /* Pods_Grocery.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0061960CB6370FA979BDEAB2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				154652845B4D515024392A1D /* Pods-Grocery.debug.xcconfig */,
+				41324646D034CC50A3241D3A /* Pods-Grocery.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		541E77AE2872524C0043AFAC = {
 			isa = PBXGroup;
 			children = (
 				541E77B92872524C0043AFAC /* Grocery */,
 				541E77B82872524C0043AFAC /* Products */,
+				0061960CB6370FA979BDEAB2 /* Pods */,
+				E406796D9C9F51ED3A30F3B7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -61,19 +84,47 @@
 		541E77B92872524C0043AFAC /* Grocery */ = {
 			isa = PBXGroup;
 			children = (
+				541E77D82872568A0043AFAC /* ViewControllers */,
+				541E77D7287256400043AFAC /* Storyboard */,
 				541E77BA2872524C0043AFAC /* AppDelegate.h */,
 				541E77BB2872524C0043AFAC /* AppDelegate.m */,
 				541E77BD2872524C0043AFAC /* SceneDelegate.h */,
 				541E77BE2872524C0043AFAC /* SceneDelegate.m */,
-				541E77C02872524C0043AFAC /* ViewController.h */,
-				541E77C12872524C0043AFAC /* ViewController.m */,
-				541E77C32872524C0043AFAC /* Main.storyboard */,
 				541E77C62872524D0043AFAC /* Assets.xcassets */,
-				541E77C82872524D0043AFAC /* LaunchScreen.storyboard */,
 				541E77CB2872524D0043AFAC /* Info.plist */,
 				541E77CC2872524D0043AFAC /* main.m */,
 			);
 			path = Grocery;
+			sourceTree = "<group>";
+		};
+		541E77D7287256400043AFAC /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				541E77C32872524C0043AFAC /* Main.storyboard */,
+				541E77C82872524D0043AFAC /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		541E77D82872568A0043AFAC /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				541E77C02872524C0043AFAC /* ViewController.h */,
+				541E77C12872524C0043AFAC /* ViewController.m */,
+				541E77D92872571D0043AFAC /* SignInViewController.h */,
+				541E77DA2872571D0043AFAC /* SignInViewController.m */,
+				541E77DC287257510043AFAC /* RegisterViewController.h */,
+				541E77DD287257510043AFAC /* RegisterViewController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		E406796D9C9F51ED3A30F3B7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CB345D6B8356BFDBE8F4F612 /* Pods_Grocery.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +134,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 541E77D02872524D0043AFAC /* Build configuration list for PBXNativeTarget "Grocery" */;
 			buildPhases = (
+				D14EA77BB58A58AF7FDB88B9 /* [CP] Check Pods Manifest.lock */,
 				541E77B32872524C0043AFAC /* Sources */,
 				541E77B42872524C0043AFAC /* Frameworks */,
 				541E77B52872524C0043AFAC /* Resources */,
@@ -141,11 +193,38 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		D14EA77BB58A58AF7FDB88B9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Grocery-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		541E77B32872524C0043AFAC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				541E77DB2872571D0043AFAC /* SignInViewController.m in Sources */,
+				541E77DE287257510043AFAC /* RegisterViewController.m in Sources */,
 				541E77C22872524C0043AFAC /* ViewController.m in Sources */,
 				541E77BC2872524C0043AFAC /* AppDelegate.m in Sources */,
 				541E77CD2872524D0043AFAC /* main.m in Sources */,
@@ -287,6 +366,7 @@
 		};
 		541E77D12872524D0043AFAC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 154652845B4D515024392A1D /* Pods-Grocery.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -314,6 +394,7 @@
 		};
 		541E77D22872524D0043AFAC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41324646D034CC50A3241D3A /* Pods-Grocery.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

@@ -1,0 +1,31 @@
+//
+//  RegisterViewController.h
+//  Grocery
+//
+//  Created by Mitchel Igolimah on 7/3/22.
+//
+
+#import <UIKit/UIKit.h>
+
+NS_ASSUME_NONNULL_BEGIN
+
+@interface RegisterViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UITextField *fullnameField;
+@property (weak, nonatomic) IBOutlet UITextField *emailField;
+@property (weak, nonatomic) IBOutlet UITextField *passwordField;
+@property (weak, nonatomic) IBOutlet UITextField *phoneField;
+@property (weak, nonatomic) IBOutlet UITextField *addressField;
+@property (weak, nonatomic) IBOutlet UIButton *registerBtn;
+- (IBAction)registerBtn:(id)sender;
+
+
+
+
+
+
+
+
+
+@end
+
+NS_ASSUME_NONNULL_END
