@@ -17,6 +17,8 @@
 		541E77CD2872524D0043AFAC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 541E77CC2872524D0043AFAC /* main.m */; };
 		541E77DB2872571D0043AFAC /* SignInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 541E77DA2872571D0043AFAC /* SignInViewController.m */; };
 		541E77DE287257510043AFAC /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 541E77DD287257510043AFAC /* RegisterViewController.m */; };
+		541E77E0287276480043AFAC /* Keys.plist in Resources */ = {isa = PBXBuildFile; fileRef = 541E77DF287276480043AFAC /* Keys.plist */; };
+		541E77E32873863D0043AFAC /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 541E77E22873863D0043AFAC /* HomeViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +40,9 @@
 		541E77DA2872571D0043AFAC /* SignInViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SignInViewController.m; sourceTree = "<group>"; };
 		541E77DC287257510043AFAC /* RegisterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
 		541E77DD287257510043AFAC /* RegisterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
+		541E77DF287276480043AFAC /* Keys.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Keys.plist; sourceTree = "<group>"; };
+		541E77E12873863D0043AFAC /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		541E77E22873863D0043AFAC /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 		CB345D6B8356BFDBE8F4F612 /* Pods_Grocery.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Grocery.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -59,7 +64,6 @@
 				154652845B4D515024392A1D /* Pods-Grocery.debug.xcconfig */,
 				41324646D034CC50A3241D3A /* Pods-Grocery.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -93,6 +97,7 @@
 				541E77C62872524D0043AFAC /* Assets.xcassets */,
 				541E77CB2872524D0043AFAC /* Info.plist */,
 				541E77CC2872524D0043AFAC /* main.m */,
+				541E77DF287276480043AFAC /* Keys.plist */,
 			);
 			path = Grocery;
 			sourceTree = "<group>";
@@ -115,6 +120,8 @@
 				541E77DA2872571D0043AFAC /* SignInViewController.m */,
 				541E77DC287257510043AFAC /* RegisterViewController.h */,
 				541E77DD287257510043AFAC /* RegisterViewController.m */,
+				541E77E12873863D0043AFAC /* HomeViewController.h */,
+				541E77E22873863D0043AFAC /* HomeViewController.m */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -138,6 +145,7 @@
 				541E77B32872524C0043AFAC /* Sources */,
 				541E77B42872524C0043AFAC /* Frameworks */,
 				541E77B52872524C0043AFAC /* Resources */,
+				666B88F6866B43CCDBF49286 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -185,6 +193,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				541E77E0287276480043AFAC /* Keys.plist in Resources */,
 				541E77CA2872524D0043AFAC /* LaunchScreen.storyboard in Resources */,
 				541E77C72872524D0043AFAC /* Assets.xcassets in Resources */,
 				541E77C52872524C0043AFAC /* Main.storyboard in Resources */,
@@ -194,6 +203,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		666B88F6866B43CCDBF49286 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Grocery/Pods-Grocery-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Grocery/Pods-Grocery-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Grocery/Pods-Grocery-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		D14EA77BB58A58AF7FDB88B9 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -228,6 +254,7 @@
 				541E77C22872524C0043AFAC /* ViewController.m in Sources */,
 				541E77BC2872524C0043AFAC /* AppDelegate.m in Sources */,
 				541E77CD2872524D0043AFAC /* main.m in Sources */,
+				541E77E32873863D0043AFAC /* HomeViewController.m in Sources */,
 				541E77BF2872524C0043AFAC /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

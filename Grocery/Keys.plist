@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<!--
-   Keys.plist
-   Grocery
-
-   Created by Mitchel Igolimah on 7/3/22.
-   Copyright (c) 2022 ___ORGANIZATIONNAME___. All rights reserved.
--->
 <plist version="1.0">
-<dict/>
+<dict>
+	<key>APPID</key>
+	<string>z3hBkCq2Sh8mJJZFlVS32VNsFDzqUXEWmz0PdMPb</string>
+	<key>ClientKey</key>
+	<string>gobuxfnFxG53aWL5sx1tk64YxnWlgfE6JIZYuDGX</string>
+	<key>Server</key>
+	<string>https://parseapi.back4app.com/</string>
+</dict>
 </plist>
