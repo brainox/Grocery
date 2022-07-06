@@ -19,10 +19,10 @@
     // Do any additional setup after loading the view.
 }
 - (void)loginUser {
-    NSString *email= self.emailField.text;
+    NSString *username= self.usernameField.text;
     NSString *password = self.passwordField.text;
     
-    [PFUser logInWithUsernameInBackground:email password:password block:^(PFUser * user, NSError *  error) {
+    [PFUser logInWithUsernameInBackground:username password:password block:^(PFUser * user, NSError *  error) {
         if (error != nil) {
             NSLog(@"User log in failed: %@", error.localizedDescription);
         } else {
@@ -44,10 +44,10 @@
 */
 
 - (IBAction)loginBtn:(id)sender {
-    if ([self.emailField.text isEqual:@""] || [self.passwordField.text isEqual:@""]){
+    if ([self.usernameField.text isEqual:@""] || [self.passwordField.text isEqual:@""]){
     
-    UIAlertController *alert = [UIAlertController alertControllerWithTitle:@"Title"
-                                                                               message:@"Message"
+    UIAlertController *alert = [UIAlertController alertControllerWithTitle:@"Oooops"
+                                                                               message:@"Please fill out all required fields"
                                                                         preferredStyle:(UIAlertControllerStyleAlert)];
     
     // create a cancel action

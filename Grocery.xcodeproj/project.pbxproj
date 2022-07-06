@@ -12,13 +12,13 @@
 		541E77BF2872524C0043AFAC /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 541E77BE2872524C0043AFAC /* SceneDelegate.m */; };
 		541E77C22872524C0043AFAC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 541E77C12872524C0043AFAC /* ViewController.m */; };
 		541E77C52872524C0043AFAC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 541E77C32872524C0043AFAC /* Main.storyboard */; };
-		541E77C72872524D0043AFAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 541E77C62872524D0043AFAC /* Assets.xcassets */; };
 		541E77CA2872524D0043AFAC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 541E77C82872524D0043AFAC /* LaunchScreen.storyboard */; };
 		541E77CD2872524D0043AFAC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 541E77CC2872524D0043AFAC /* main.m */; };
 		541E77DB2872571D0043AFAC /* SignInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 541E77DA2872571D0043AFAC /* SignInViewController.m */; };
 		541E77DE287257510043AFAC /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 541E77DD287257510043AFAC /* RegisterViewController.m */; };
 		541E77E0287276480043AFAC /* Keys.plist in Resources */ = {isa = PBXBuildFile; fileRef = 541E77DF287276480043AFAC /* Keys.plist */; };
 		541E77E32873863D0043AFAC /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 541E77E22873863D0043AFAC /* HomeViewController.m */; };
+		54981DB02874FFA6009A9799 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54981DAF2874FFA6009A9799 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,7 +32,6 @@
 		541E77C02872524C0043AFAC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		541E77C12872524C0043AFAC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		541E77C42872524C0043AFAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		541E77C62872524D0043AFAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		541E77C92872524D0043AFAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		541E77CB2872524D0043AFAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		541E77CC2872524D0043AFAC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -43,6 +42,7 @@
 		541E77DF287276480043AFAC /* Keys.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Keys.plist; sourceTree = "<group>"; };
 		541E77E12873863D0043AFAC /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
 		541E77E22873863D0043AFAC /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		54981DAF2874FFA6009A9799 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../Instagram/Instagram/Assets.xcassets; sourceTree = "<group>"; };
 		CB345D6B8356BFDBE8F4F612 /* Pods_Grocery.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Grocery.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -94,9 +94,9 @@
 				541E77BB2872524C0043AFAC /* AppDelegate.m */,
 				541E77BD2872524C0043AFAC /* SceneDelegate.h */,
 				541E77BE2872524C0043AFAC /* SceneDelegate.m */,
-				541E77C62872524D0043AFAC /* Assets.xcassets */,
 				541E77CB2872524D0043AFAC /* Info.plist */,
 				541E77CC2872524D0043AFAC /* main.m */,
+				54981DAF2874FFA6009A9799 /* Assets.xcassets */,
 				541E77DF287276480043AFAC /* Keys.plist */,
 			);
 			path = Grocery;
@@ -195,7 +195,7 @@
 			files = (
 				541E77E0287276480043AFAC /* Keys.plist in Resources */,
 				541E77CA2872524D0043AFAC /* LaunchScreen.storyboard in Resources */,
-				541E77C72872524D0043AFAC /* Assets.xcassets in Resources */,
+				54981DB02874FFA6009A9799 /* Assets.xcassets in Resources */,
 				541E77C52872524C0043AFAC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
